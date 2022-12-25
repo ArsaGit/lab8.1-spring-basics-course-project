@@ -52,8 +52,8 @@ public class App {
         event = ctx.getBean(Event.class);
         logEvent(null, event, "Some event for 3");
 
-//        event = ctx.getBean(Event.class);
-//        logEvent(EventType.WARNING, event, "My WARNING Event");
+        event = ctx.getBean(Event.class);
+        logEvent(EventType.WARNING, event, "My WARNING Event");
     }
     
     public App() {}
