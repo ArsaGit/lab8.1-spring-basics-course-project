@@ -26,8 +26,8 @@ public class DBLogger extends AbstractLogger {
     }
 
     public void init() {
-        createDBSchema();
-        createTableIfNotExists();
+        //createDBSchema();
+        //createTableIfNotExists();
         updateEventAutoId();
     }
     
